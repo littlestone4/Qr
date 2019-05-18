@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,3"
+    android:background="@mipmap/ss"
+    tools:context=".Manager">
+
+    <TableRow
+        android:paddingTop="2dp">
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学  号："
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="请输入学生学号" />
+        <TextView />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="2dp">
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓  名："
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/editNa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入学生姓名" />
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="数  学："
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/editMa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="请输入数学成绩" />
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+        <TextView />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="英  语："
+            android:textSize="18sp"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/editEn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="请输入英语成绩" />
+        <TextView />
+    </TableRow>
+
+    <TableRow>
+        <TextView />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="语  文："
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editCh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="请输入语文成绩" />
+        <TextView />
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="6dp">
+        <TextView />
+        <TextView />
+
+        <Button
+
+            android:id="@+id/btnpost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#FF8247"
+            android:text="录入成绩信息" />
+        <TextView />
+    </TableRow>
+
+
+</TableLayout>
